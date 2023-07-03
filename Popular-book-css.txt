@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-bg-container {
+    background-color: #06070d;
+    height: 150vh;
+    background-size: cover;
+}
+
+.popular-book-heading {
+    color: white;
+    font-size: 25px;
+    font-family: Bree Serif;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.wings-of-fire-card {
+    background-color: #e6f6ff;
+
+    margin: 8px;
+    margin-top: 0px;
+    border-radius: 15px;
+    height: 190px;
+
+}
+
+.wings-of-fire-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arun-tiwari-para-Home {
+    font-size: 12px;
+
+}
+
+.wings-of-fire-photo {
+    height: 190px;
+    width: 120px;
+}
+
+.recommended-books-heading {
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 20px;
+
+
+}
+
+.harryporter-card {
+    background-color: #06070d;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.wings-of-fire-discription {
+    padding: 20px;
+
+}
+
+.wings-of-fire-bg-container {
+    background-color: #06070d;
+    height: 150vh;
+    background-size: cover;
+}
+
+.wings-of-fire-pic {
+    height: 300px;
+    width: 200px;
+    margin-left: 120px;
+
+}
+
+.wings-of-fire-text-card {
+    color: white;
+    padding: 15px;
+}
+
+.wings-of-fire-heading-white {
+    font-size: 28px;
+    text-align: center;
+}
+
+.arun-tiwari-para {
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+.three-mistakes-bg-container {
+    background-color: #06070d;
+    height: 160vh;
+    background-size: cover;
+}
+
+.three-mistakes-photo {
+    height: 300px;
+    width: 200px;
+    margin-left: 120px;
+
+}
+
+.three-mistakes--text-card {
+    color: white;
+    padding: 15px;
+}
+
+.three-mistakes-heading {
+    font-size: 28px;
+    text-align: center;
+}
+
+.chetan-para {
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+.harry-porter-bg-container {
+    background-color: #06070d;
+    height: 160vh;
+    background-size: cover;
+}
+
+.harry-porter-photo {
+    height: 300px;
+    width: 200px;
+    margin-left: 120px;
+
+}
+
+.harry-porter-text-card {
+    color: white;
+    padding: 15px;
+}
+
+.harry-porter-heading {
+    font-size: 28px;
+    text-align: center;
+}
+
+.rk-bowling-para {
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="section-Home">
+        <div class="home-bg-container">
+            <h1 class="popular-book-heading"> Popular Book </h1>
+            <div class="wings-of-fire-card d-flex flex-row">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wings-of-fire-photo" />
+                </div>
+
+                <div class="wings-of-fire-discription">
+                    <h1 class="wings-of-fire-heading"> wings of Fire</h1>
+                    <p> An autobiography of <br /> Abdul Kalam </p>
+
+                    <p class="arun-tiwari-para-Home"> by Arun Tiwari</p>
+                    <button class="btn btn-primary" onclick="display('section-wings-of-fire')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+            <h1 class="recommended-books-heading"> Recommended Books </h1>
+
+            <div class="harryporter-card d-flex flex-row">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="wings-of-fire-photo" />
+                </div>
+
+                <div class="wings-of-fire-discription">
+                    <h1 class="wings-of-fire-heading">The 3 mistakes of my life</h1>
+                    <p> Indian author <br /> by chetan Bhagat </p>
+                    <button class="btn btn-primary" onclick="display('section-three-mistakes')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="harryporter-card d-flex flex-row">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="wings-of-fire-photo" />
+                </div>
+
+                <div class="wings-of-fire-discription">
+                    <h1 class="wings-of-fire-heading">Harry Porter</h1>
+                    <p> and the socreties stone <br /> by J.K.Rowling </p>
+                    <button class="btn btn-primary" onclick="display('section-harry-porter')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="section-wings-of-fire">
+        <div class="wings-of-fire-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="wings-of-fire-pic" />
+            </div>
+            <div class="wings-of-fire-text-card">
+                <div>
+                    <h1 class="wings-of-fire-heading-white"> wings of fire </h1>
+                    <p class="arun-tiwari-para">by Arun Tiwari</p>
+                </div>
+                <p> Every common man who by his sheer grit and hard work achieves success should
+                    share his story with the rest for they may find inspiration and strength
+                    to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.
+                </p>
+                <div class="buttons">
+                    <button class="btn btn-warning" onclick="display('section-Home')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="section-three-mistakes">
+        <div class="three-mistakes-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="three-mistakes-photo" />
+            </div>
+            <div class="three-mistakes--text-card">
+                <div>
+                    <h1 class="three-mistakes-heading"> The 3 Mistakes of My Life </h1>
+                    <p class="chetan-para">by chetan Bhagat</p>
+                </div>
+                <p> Every common man who by his sheer grit and hard work achieves success should
+                    share his story with the rest for they may find inspiration and strength
+                    to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.
+                </p>
+                <div class="buttons">
+                    <button class="btn btn-warning" onclick="display('section-Home')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-harry-porter">
+        <div class="harry-porter-bg-container">
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="harry-porter-photo" />
+            </div>
+            <div class="harry-porter-text-card">
+                <div>
+                    <h1 class="harry-porter-heading"> Harry Porter </h1>
+                    <p class="rk-bowling-para">by R.K.Rowling</p>
+                </div>
+                <p> Every common man who by his sheer grit and hard work achieves success should
+                    share his story with the rest for they may find inspiration and strength
+                    to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.to go on , in the story. The wings of fire is one such autography by visinoary scientist
+                    Dr.Abdul kalam who from very humble beginning rose.
+                </p>
+                <div class="buttons">
+                    <button class="btn btn-warning" onclick="display('section-Home')">
+                        back
+                    </button>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
